@@ -9,8 +9,8 @@ function mouseIsInBox(box) {
 	else return false;
 }
 
-function addBox(xCoord, yCoord, size, array, drawer) {
-	array.push(new box(xCoord - (size/2), yCoord - (size/2), size, drawer));
+function addBox(xCoord, yCoord, size, array, drawer, numberOfIN, numberOfON) {
+	array.push(new box(xCoord - (size/2), yCoord - (size/2), size, drawer, numberOfIN, numberOfON));
 }
 
 function buildInNodes(numberOfNodes, box) {

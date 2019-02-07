@@ -57,11 +57,11 @@ class drawer {
 					return;
 				}
 			}
-			addBox(Screen.mouse.x-grid.x, Screen.mouse.y-grid.y, 10, this.boxArray, this);
+			addBox(Screen.mouse.x-grid.x, Screen.mouse.y-grid.y, 10, this.boxArray, this, 2, 1);
 			return;	
 		}
 		if(this.boxArray.length == 0 && Screen.mouse.left.pressed) {
-			addBox(Screen.mouse.x-grid.x, Screen.mouse.y-grid.y, 10, this.boxArray, this);
+			addBox(Screen.mouse.x-grid.x, Screen.mouse.y-grid.y, 10, this.boxArray, this, 2, 2);
 			this.clickCount++;
 		}
 	}

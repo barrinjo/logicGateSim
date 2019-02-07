@@ -1,8 +1,8 @@
 class box {
-	constructor(initX, initY, size, drawer) {
+	constructor(initX, initY, size, drawer, numberofIN, numberofON) {
 		drawable(this);
-		this.INNN = 2;
-		this.ONNN = 1;
+		this.INNN = numberofIN;
+		this.ONNN = numberofON;
 		this.x = initX;
 		this.y = initY;
 		this.mouseX;
